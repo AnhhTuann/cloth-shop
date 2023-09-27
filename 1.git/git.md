@@ -8,7 +8,7 @@ Thư mục cục bộ của bạn bao gồm ba "trees" được duy trì bởi g
 - Cái thứ hai là Chỉ Mục (Index) đóng vai trò như staging area
 - Cuối cùng là HEAD trỏ đến commit gần đây nhất của bạn.
 
-![alt text]()
+  ![image description](./git.png)
 
 2. Các từ khóa cần biết trong git
 
