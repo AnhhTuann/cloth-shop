@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 4px hsla(0, 0%, 98%, 0.1);
+  z-index: 100;
+  &__top {
+    background-color: $primary-color-alt;
+    border-bottom: 1px solid $primary-color;
+    padding-block: 0.875rem;
+    color: $title-color;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1.125rem;
+    a {
+      color: $title-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+  }
+}

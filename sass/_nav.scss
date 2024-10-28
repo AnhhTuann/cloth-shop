@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  &__logo {
+    font-size: 1.1rem;
+    color: $bg-color;
+    font-weight: 600;
+  }
+  &__cart-icon {
+    position: relative;
+    font-size: 1.8rem;
+    cursor: pointer;
+    &[data-quantity]::after {
+      contain: "";
+      content: "";
+      position: absolute;
+      top: 0;
+      right: -12px;
+      width: 20px;
+      height: 20px;
+      background: $text-color;
+      border-radius: 50%;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
